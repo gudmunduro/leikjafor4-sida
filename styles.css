@@ -1,0 +1,84 @@
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #212121;
+}
+
+.mainGameInfo {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+}
+.mainGameInfo section {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    height: 300px;
+}
+.mainGameInfo section .title {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    font-weight: 400;
+    color: white;
+}
+.mainGameInfo section .desc {
+    margin-top: 100px;
+    display: block;
+    width: 80%;
+    color: #F5F5F5;
+}
+.mainGameInfo section .downloadForLinux {
+    display: block;
+    width: 200px;
+    height: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #007aff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    transition: background-color 0.3s ease-out;
+}
+.mainGameInfo section .downloadForLinux:hover {
+    background-color: #035ab6;
+}
+.mainGameInfo section .downloadForWindows {
+    display: block;
+    width: 200px;
+    height: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #007aff;
+    text-align: center;
+    transition: color 0.3s ease-out;
+}
+.mainGameInfo section .downloadForWindows:hover {
+    color: #035ab6;
+}
+
+
+
+.moreInfo {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.moreInfo h2 {
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.moreInfo video {
+    display: block;
+    margin: 0 auto;
+}
