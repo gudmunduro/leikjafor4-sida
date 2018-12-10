@@ -17,16 +17,21 @@ body{
     margin: 0;
     padding: 0;
     width: 50%;
-    height: 300px;
 }
 .mainGameInfo section .title {
     font-family: 'Roboto', sans-serif;
-    margin-left: 20px;
+    margin-left: 50px;
     font-weight: 400;
     color: white;
 }
+.mainGameInfo section .screenshot {
+    display: block;
+    margin-left: 50px;
+    width: 50%;
+    margin-bottom: 50px;
+}
 .mainGameInfo section .desc {
-    margin-top: 100px;
+    margin-top: 70px;
     display: block;
     width: 80%;
     color: #F5F5F5;
@@ -76,9 +81,17 @@ body{
     margin-left: 20px;
     font-weight: 300;
     color: white;
+    text-align: center;
 }
-
 .moreInfo video {
     display: block;
     margin: 0 auto;
+}
+.moreInfo p {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.95em;
+    color: white;
 }
