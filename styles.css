@@ -6,6 +6,14 @@ body{
     background-color: #212121;
 }
 
+a{
+    text-decoration: none;
+    color: gray;
+}
+a:hover{
+    color:white;
+}
+
 .mainGameInfo {
     display: flex;
     flex-flow: row wrap;
