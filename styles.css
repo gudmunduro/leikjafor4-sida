@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body{
     padding: 0;
@@ -12,6 +12,10 @@ a{
 }
 a:hover{
     color:white;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+
 }
 
 .mainGameInfo {
